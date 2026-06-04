@@ -1,5 +1,6 @@
 ---
 title: Account Deletion
+permalink: /
 ---
 
 # Nodal — Account Deletion
