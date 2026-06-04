@@ -1,10 +1,12 @@
+---
+title: Privacy Policy
+---
+
 # Nodal — Privacy Policy
 
 **Effective date:** 4 June 2026
 **App:** Nodal (`com.funspot.nodal.app`)
 **Contact:** iliev.nick007@gmail.com
-
-> **Note for the developer (delete before publishing):** This is an accurate, engineering-derived draft reflecting what the app actually does as of build 34. It is **not legal advice** — because Nodal collects **birth date/time/place** (which can be considered sensitive in some jurisdictions), have it reviewed before relying on it, and tailor the GDPR/CCPA wording to where you ship. Host the published version at a public HTTPS URL (e.g. GitHub Pages) and paste that URL into Play Console → Store presence → App content → Privacy policy.
 
 ---
 

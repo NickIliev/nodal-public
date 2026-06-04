@@ -1,3 +1,7 @@
+---
+title: Account Deletion
+---
+
 # Nodal — Account Deletion
 
 You can request deletion of your Nodal account and all associated data at any time.
@@ -24,4 +28,4 @@ We'll process the request within 7 business days and confirm when complete.
 
 For privacy questions: iliev.nick007@gmail.com
 
-See also: [Privacy Policy](privacy-policy.md)
+See also: [Privacy Policy](privacy-policy.html)
