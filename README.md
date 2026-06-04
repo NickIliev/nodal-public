@@ -24,4 +24,4 @@ We'll process the request within 7 business days and confirm when complete.
 
 For privacy questions: iliev.nick007@gmail.com
 
-See also: [Privacy Policy](privacy-policy.md)
+See also: [Privacy Policy](PRIVACY_POLICY.md)
