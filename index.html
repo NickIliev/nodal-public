@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Nodal — Astrology, minus the fog</title>
+<meta name="description" content="Nodal reads your actual birth chart and tells you what today's for — plainly. Real ephemeris math, tappable natal wheel, daily transit readings. No ads, no tracking." />
+<!-- Open Graph / social -->
+<meta property="og:title" content="Nodal — Astrology, minus the fog" />
+<meta property="og:description" content="Your real chart, read straight. Daily transit readings, no ads, no tracking." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="./og-image.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --bg:#0A0A0A; --surface:#121212; --ink:#F4F1EA;
+    --muted:rgba(244,241,234,.55); --line:rgba(244,241,234,.12);
+    --accent:#3B6E5E; --accent-2:#C0533E;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:"Newsreader",Georgia,serif; font-size:19px; line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:760px; margin:0 auto; padding:0 24px}
+  .mono{font-family:"JetBrains Mono",ui-monospace,monospace; font-size:.72em; letter-spacing:.04em; text-transform:uppercase; color:var(--muted)}
+  a{color:var(--ink)}
+  /* hero */
+  header{padding:88px 0 56px; border-bottom:1px solid var(--line)}
+  .brand{font-size:clamp(56px,12vw,108px); line-height:.95; font-weight:500; letter-spacing:-.02em; margin:0}
+  .tag{font-size:clamp(22px,4vw,30px); margin:18px 0 8px; max-width:18ch}
+  .sub{color:var(--muted); margin:0 0 32px; max-width:46ch}
+  .cta{display:inline-flex; align-items:center; gap:10px; background:var(--accent); color:#fff;
+       text-decoration:none; padding:14px 26px; border-radius:10px; font-weight:500; font-size:18px}
+  .cta:hover{filter:brightness(1.08)}
+  .note{margin-top:16px; font-size:15px}
+  /* sections */
+  section{padding:56px 0; border-bottom:1px solid var(--line)}
+  h2{font-size:14px; font-weight:500; letter-spacing:.12em; text-transform:uppercase; color:var(--muted);
+     font-family:"JetBrains Mono",monospace; margin:0 0 28px}
+  .feat{margin:0 0 34px}
+  .feat h3{font-size:26px; font-weight:500; margin:0 0 6px}
+  .feat p{margin:0; color:var(--muted); max-width:54ch}
+  .feat .pro{color:var(--accent-2); font-size:13px; font-family:"JetBrains Mono",monospace; letter-spacing:.08em}
+  /* free/pro */
+  .cols{display:grid; grid-template-columns:1fr 1fr; gap:24px}
+  .card{border:1px solid var(--line); border-radius:12px; padding:22px; background:var(--surface)}
+  .card h3{margin:0 0 10px; font-size:22px; font-weight:500}
+  .card ul{margin:0; padding-left:18px; color:var(--muted); font-size:17px}
+  .card li{margin:4px 0}
+  /* trust */
+  .trust p{font-size:24px; max-width:30ch; margin:0}
+  .trust .small{font-size:16px; color:var(--muted); margin-top:18px; max-width:50ch}
+  /* footer */
+  footer{padding:44px 0 80px; color:var(--muted); font-size:15px; display:flex; gap:24px; flex-wrap:wrap}
+  footer a{color:var(--muted)}
+  @media(max-width:560px){ .cols{grid-template-columns:1fr} body{font-size:18px} }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <p class="mono">Birth chart · daily transits · plain readings</p>
+    <h1 class="brand">Nodal</h1>
+    <p class="tag">Astrology, minus the fog.</p>
+    <p class="sub">Most astrology apps bury three sentences of meaning under a screen of mysticism. Nodal reads your <em>actual</em> chart and tells you what today's for — plainly — then gets out of the way.</p>
+    <a class="cta" href="https://play.google.com/store/apps/details?id=com.funspot.nodal.app">Get it on Google Play →</a>
+    <p class="note mono">Android · free core forever · no ads</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>What it does</h2>
+    <div class="feat">
+      <h3>Today, read straight</h3>
+      <p>One clear reading built from the real transits hitting your chart — not a generic sun-sign blurb. Five lenses: love, drive, mind, work, home.</p>
+    </div>
+    <div class="feat">
+      <h3>Your whole chart, tappable</h3>
+      <p>Your natal chart as a clean wheel. Tap any planet or aspect for a plain-language read of what it actually means. Real ephemeris math under the hood.</p>
+    </div>
+    <div class="feat">
+      <h3>The people in your orbit</h3>
+      <p>Add anyone — a partner, a friend, the group chat — and see the dynamic: where your charts fit, where they spark, where they grate.</p>
+    </div>
+    <div class="feat">
+      <h3>Ask your chart <span class="pro">PRO</span></h3>
+      <p>Talk to your chart in your own words. Your placements are already loaded — skip the setup and just ask. Plus the year ahead, mapped.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Free vs Pro</h2>
+    <div class="cols">
+      <div class="card">
+        <h3>Free, forever</h3>
+        <ul>
+          <li>Your full natal chart</li>
+          <li>Daily readings</li>
+          <li>Transits</li>
+          <li>Compatibility</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Pro</h3>
+        <ul>
+          <li>Ask your chart</li>
+          <li>The year ahead + chapters</li>
+          <li>AI-sharpened readings</li>
+          <li>Free trial for new subscribers</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="trust">
+  <div class="wrap">
+    <h2>The deal</h2>
+    <p>No ads. No tracking. No selling your data.</p>
+    <p class="small">Your chart is yours — export it or delete it any time. Astrology is for reflection and entertainment, not advice. Use it as a mirror, not a map.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <a class="cta" href="https://play.google.com/store/apps/details?id=com.funspot.nodal.app">Get it on Google Play →</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap" style="display:flex; gap:24px; flex-wrap:wrap">
+    <span>© Nodal</span>
+    <a href="https://nickiliev.github.io/nodal-public/privacy-policy.html">Privacy policy</a>
+    <a href="mailto:iliev.nick007@gmail.com">Contact</a>
+  </div>
+</footer>
+</body>
+</html>
