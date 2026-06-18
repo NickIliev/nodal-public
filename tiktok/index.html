@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Nodal — Redeem your free Pro</title>
+<meta name="description" content="Redeem your free Nodal Pro trial." />
+<meta name="robots" content="noindex" />
+<!-- Fallback redirect if JS is disabled. JS path (below) fires first/faster. -->
+<meta http-equiv="refresh" content="3;url=https://play.google.com/redeem?code=NODALTIKTOK" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --bg:#0A0A0A; --surface:#121212; --ink:#F4F1EA;
+    --muted:rgba(244,241,234,.55); --line:rgba(244,241,234,.12);
+    --accent:#3B6E5E;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; min-height:100dvh; background:var(--bg); color:var(--ink);
+    font-family:"Newsreader",Georgia,serif; font-size:19px; line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+    display:flex; align-items:center; justify-content:center; padding:24px;
+  }
+  .card{max-width:440px; width:100%; text-align:center}
+  .mono{font-family:"JetBrains Mono",ui-monospace,monospace; font-size:.72em; letter-spacing:.06em; text-transform:uppercase; color:var(--muted)}
+  .brand{font-size:64px; line-height:.95; font-weight:500; letter-spacing:-.02em; margin:0 0 6px}
+  .tag{font-size:24px; margin:0 0 28px}
+  .cta{display:inline-flex; align-items:center; gap:10px; background:var(--accent); color:#fff;
+       text-decoration:none; padding:16px 30px; border-radius:10px; font-weight:500; font-size:19px}
+  .cta:hover{filter:brightness(1.08)}
+  .steps{margin:30px auto 0; max-width:34ch; text-align:left; color:var(--muted); font-size:16px; padding-left:20px}
+  .steps li{margin:8px 0}
+  .steps b{color:var(--ink); font-weight:500}
+  .hint{margin-top:26px; font-size:14px; color:var(--muted); max-width:36ch; margin-left:auto; margin-right:auto}
+</style>
+</head>
+<body>
+  <div class="card">
+    <p class="mono">Astrology, minus the fog</p>
+    <h1 class="brand">Nodal</h1>
+    <p class="tag">Your free Pro trial is ready.</p>
+
+    <a class="cta" id="redeem" href="https://play.google.com/redeem?code=NODALTIKTOK">
+      Redeem in Google Play →
+    </a>
+
+    <ol class="steps">
+      <li>Tap <b>Redeem</b> above — it opens Google Play.</li>
+      <li>Confirm the code <b>NODALTIKTOK</b>.</li>
+      <li>Open <b>Nodal</b> — Pro unlocks automatically.</li>
+    </ol>
+
+    <p class="hint">Not opening? Tap the <b>•••</b> menu and choose <b>“Open in browser.”</b></p>
+  </div>
+
+  <script>
+    // Primary redirect — fires immediately. The visible button and the
+    // <meta refresh> are fallbacks for in-app browsers (e.g. TikTok) that
+    // block scripted navigation, where the user taps Redeem manually.
+    var REDEEM = "https://play.google.com/redeem?code=NODALTIKTOK";
+    try { window.location.replace(REDEEM); } catch (e) { window.location.href = REDEEM; }
+  </script>
+</body>
+</html>
